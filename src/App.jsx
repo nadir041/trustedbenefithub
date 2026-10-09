@@ -18,7 +18,6 @@ function LegalPage({ type }) {
             </span>
           </a>
           <nav className="legal-nav" aria-label="Main navigation">
-            <a href="/">Home</a>
             <a href="/#contact" className="nav__cta">Get Free Quote</a>
           </nav>
         </div>
