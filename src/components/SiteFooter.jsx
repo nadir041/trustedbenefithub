@@ -7,10 +7,10 @@ function SiteFooter() {
       <div className="container footer__grid">
         <div className="footer__brand">
           <Brand href="#top" className="brand brand--footer" />
-          <p>Helping families across America find affordable Final Expense and Medicare coverage from top-rated, licensed carriers.</p>
+          <p>Helping families across America find affordable Final Expense from top-rated, licensed carriers.</p>
           <ul className="footer__contact">
             <li>📞 <a href="tel:+18447801683">(844) 780-1683</a></li>
-            <li>✉️ <a href="mailto:support@trustedbenefithub.com">support@trustedbenefithub.com</a></li>
+            <li>✉️ <a href="mailto:info@finalexpenseplanhub.com.com">info@finalexpenseplanhub.com</a></li>
             <li>📍 <span>5601 Democracy Drive, Suite 265,<br />Plano, TX 75024</span></li>
           </ul>
         </div>
