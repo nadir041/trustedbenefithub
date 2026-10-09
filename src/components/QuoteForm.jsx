@@ -33,8 +33,8 @@ function QuoteForm() {
 
       <div className="field-row">
         <div className="field">
-          <label htmlFor="state">State (2 letters)</label>
-          <input type="text" id="state" name="state" placeholder="TX" maxLength="2" autoComplete="address-level1" autoCapitalize="characters" required />
+          <label htmlFor="state">State</label>
+          <input type="text" id="state" name="state" placeholder="Texas" autoComplete="address-level1" required />
           <small className="err" data-for="state"></small>
         </div>
         <div className="field">

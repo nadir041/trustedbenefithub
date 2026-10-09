@@ -140,11 +140,10 @@ function usePageBehavior(pageKind) {
           digits.length >= 10 ? "" : "Enter a valid phone number.",
         ) && valid;
 
-      const stateValue = value("state").toUpperCase();
       valid =
         setError(
           "state",
-          /^[A-Z]{2}$/.test(stateValue) ? "" : "Enter a valid 2-letter state.",
+          value("state") ? "" : "Please enter your state.",
         ) && valid;
       valid =
         setError(
@@ -208,7 +207,7 @@ function usePageBehavior(pageKind) {
         firstName: document.getElementById("firstName").value.trim(),
         lastName: document.getElementById("lastName").value.trim(),
         phone: document.getElementById("phone").value.replace(/\D/g, ""),
-        state: document.getElementById("state").value.trim().toUpperCase(),
+        state: document.getElementById("state").value.trim(),
         zipcode: document.getElementById("zipcode").value.replace(/\D/g, ""),
         consent: document.getElementById("consent").checked ? "Yes" : "No",
         trustedFormCert: certUrl,
