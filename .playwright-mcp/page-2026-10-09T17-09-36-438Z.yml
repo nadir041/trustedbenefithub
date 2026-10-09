@@ -1,0 +1,231 @@
+- generic [ref=f7e2]:
+  - generic [ref=f7e4]:
+    - paragraph [ref=f7e13]: TrustedBenefitHub
+    - generic [ref=f7e14]: Securing your peace of mind…
+  - 'link "📞 Call Now: (844) 780-1683" [ref=f7e17] [cursor=pointer]':
+    - /url: tel:+18447801683
+  - banner [ref=f7e18]:
+    - generic [ref=f7e19]:
+      - link "TrustedBenefitHub — Medicare & Final Expense" [ref=f7e20] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f7e23]:
+          - generic [ref=f7e24]:
+            - text: Trusted
+            - strong [ref=f7e25]: Benefit
+            - text: Hub
+          - generic [ref=f7e26]: Medicare & Final Expense
+      - navigation [ref=f7e27]:
+        - link "Final Expense" [ref=f7e28] [cursor=pointer]:
+          - /url: "#final-expense"
+        - link "Medicare" [ref=f7e29] [cursor=pointer]:
+          - /url: "#medicare"
+        - link "How It Works" [ref=f7e30] [cursor=pointer]:
+          - /url: "#how"
+        - link "FAQ" [ref=f7e31] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Get Free Quote" [ref=f7e32] [cursor=pointer]:
+          - /url: "#contact"
+      - button "Open menu" [ref=f7e33] [cursor=pointer]
+  - main [ref=f7e37]:
+    - generic [ref=f7e39]:
+      - generic [ref=f7e40]:
+        - generic [ref=f7e41]: ⭐ Rated 4.9/5 by 12,000+ families
+        - heading "Final Expense & Medicare Coverage, Made Simple & Affordable" [level=1] [ref=f7e42]:
+          - text: Final Expense & Medicare Coverage,
+          - generic [ref=f7e43]: Made Simple & Affordable
+        - paragraph [ref=f7e44]:
+          - text: Protect the people you love from the burden of final costs and get the Medicare benefits you deserve. Compare top-rated plans in minutes —
+          - strong [ref=f7e45]: no medical exam required
+          - text: on many options.
+        - generic [ref=f7e46]:
+          - generic [ref=f7e47]:
+            - strong [ref=f7e48]: "50"
+            - generic [ref=f7e49]: States Covered
+          - generic [ref=f7e51]:
+            - strong [ref=f7e52]: A+
+            - generic [ref=f7e53]: Rated Carriers
+          - generic [ref=f7e55]:
+            - strong [ref=f7e56]: 2 min
+            - generic [ref=f7e57]: Free Quote
+      - generic [ref=f7e59]:
+        - generic [ref=f7e60]:
+          - heading "Get Your Free Quote" [level=2] [ref=f7e61]
+          - paragraph [ref=f7e62]: 100% free & confidential — takes under 2 minutes.
+        - generic [ref=f7e63]:
+          - generic [ref=f7e64]:
+            - generic [ref=f7e65]: First Name
+            - textbox "First Name" [ref=f7e66]:
+              - /placeholder: John
+          - generic [ref=f7e67]:
+            - generic [ref=f7e68]: Last Name
+            - textbox "Last Name" [ref=f7e69]:
+              - /placeholder: Smith
+        - generic [ref=f7e70]:
+          - generic [ref=f7e71]: Phone
+          - textbox "Phone" [ref=f7e72]:
+            - /placeholder: (555) 123-4567
+        - generic [ref=f7e73]:
+          - generic [ref=f7e74]:
+            - generic [ref=f7e75]: State (2 letters)
+            - textbox "State (2 letters)" [ref=f7e76]:
+              - /placeholder: TX
+          - generic [ref=f7e77]:
+            - generic [ref=f7e78]: Zip Code
+            - textbox "Zip Code" [ref=f7e79]:
+              - /placeholder: "75001"
+        - generic [ref=f7e81] [cursor=pointer]:
+          - checkbox "By checking this box, I agree to be contacted by TrustedBenefitHub and its partners at the number provided (including via autodialer, pre-recorded messages & SMS), even if it is on a Do-Not-Call list. Consent is not a condition of purchase. I agree to thePrivacy Policy &Terms." [ref=f7e82]
+          - generic [ref=f7e83]:
+            - text: By checking this box, I agree to be contacted by TrustedBenefitHub and its partners at the number provided (including via autodialer, pre-recorded messages & SMS), even if it is on a Do-Not-Call list. Consent is not a condition of purchase. I agree to the
+            - link "Privacy Policy" [ref=f7e84]:
+              - /url: privacy-policy
+            - text: "&"
+            - link "Terms" [ref=f7e85]:
+              - /url: terms-and-conditions
+            - text: .
+        - button "Get My Free Quote →" [ref=f7e86] [cursor=pointer]
+        - paragraph [ref=f7e88]: 🔒 Your information is secure & will never be sold to spammers.
+        - paragraph [ref=f7e89]: We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1‑800‑MEDICARE to get information on all of your options. TrustedBenefitHub is a private, non-government entity and is not affiliated with or endorsed by the U.S. government, the federal Medicare program, the Centers for Medicare & Medicaid Services (CMS), or any government agency.
+    - generic [ref=f7e91]:
+      - generic [ref=f7e92]: "Trusted & compared across A-rated carriers:"
+      - generic [ref=f7e93]:
+        - emphasis [ref=f7e94]: Mutual of Omaha
+        - emphasis [ref=f7e95]: Aetna
+        - emphasis [ref=f7e96]: Cigna
+        - emphasis [ref=f7e97]: Humana
+        - emphasis [ref=f7e98]: UnitedHealthcare
+        - emphasis [ref=f7e99]: Foresters
+    - generic [ref=f7e101]:
+      - generic [ref=f7e102]:
+        - generic [ref=f7e103]: Final Expense Insurance
+        - heading "Peace of mind that fits any budget" [level=2] [ref=f7e104]
+        - paragraph [ref=f7e105]: Final expense life insurance is designed to cover funeral costs, medical bills, and other end-of-life expenses — so your loved ones aren't left with the bill.
+      - generic [ref=f7e106]:
+        - article [ref=f7e107]:
+          - generic [ref=f7e108]: 🛡️
+          - heading "Guaranteed Acceptance" [level=3] [ref=f7e109]
+          - paragraph [ref=f7e110]: Ages 45–85 can qualify with no medical exam and no health questions on select plans.
+        - article [ref=f7e111]:
+          - generic [ref=f7e112]: 💵
+          - heading "Affordable Premiums" [level=3] [ref=f7e113]
+          - paragraph [ref=f7e114]: Plans starting as low as a cup of coffee a day, with rates that are locked for life.
+        - article [ref=f7e115]:
+          - generic [ref=f7e116]: ⚡
+          - heading "Fast Payout" [level=3] [ref=f7e117]
+          - paragraph [ref=f7e118]: Benefits are typically paid to your beneficiary within 24–48 hours of a claim.
+        - article [ref=f7e119]:
+          - generic [ref=f7e120]: 📉
+          - heading "Never Expires" [level=3] [ref=f7e121]
+          - paragraph [ref=f7e122]: As long as premiums are paid, your coverage stays active for your entire life.
+    - generic [ref=f7e124]:
+      - generic [aria-hidden] [ref=f7e125]:
+        - generic [ref=f7e126]:
+          - generic [ref=f7e127]: $0
+          - text: Premium plans available*
+        - generic [ref=f7e128]:
+          - generic [ref=f7e129]: 65+
+          - text: Eligible & qualifying
+      - generic [ref=f7e135]:
+        - generic [ref=f7e136]: Medicare Plans
+        - heading "Get every benefit you're entitled to" [level=2] [ref=f7e137]
+        - paragraph [ref=f7e138]: Turning 65 or already enrolled? We help you compare Medicare Advantage, Supplement (Medigap), and Part D plans so you never overpay or miss out on benefits.
+        - list [ref=f7e139]:
+          - listitem [ref=f7e140]: ✓ Dental, vision & hearing coverage options
+          - listitem [ref=f7e141]: ✓ Prescription drug (Part D) savings
+          - listitem [ref=f7e142]: ✓ $0 premium Advantage plans in many areas*
+          - listitem [ref=f7e143]: ✓ Free plan reviews during enrollment periods
+        - link "Compare Medicare Plans →" [ref=f7e144] [cursor=pointer]:
+          - /url: "#contact"
+        - paragraph [ref=f7e145]: "*Availability varies by county and eligibility. We do not offer every plan available in your area."
+    - generic [ref=f7e147]:
+      - generic [ref=f7e148]:
+        - generic [ref=f7e149]: Simple Process
+        - heading "Get covered in 3 easy steps" [level=2] [ref=f7e150]
+      - generic [ref=f7e151]:
+        - generic [ref=f7e152]:
+          - generic [ref=f7e153]: "1"
+          - heading "Share a few details" [level=3] [ref=f7e154]
+          - paragraph [ref=f7e155]: Fill out the quick form — it takes less than 2 minutes and there's no obligation.
+        - generic [ref=f7e156]:
+          - generic [ref=f7e157]: "2"
+          - heading "Compare your options" [level=3] [ref=f7e158]
+          - paragraph [ref=f7e159]: A licensed specialist matches you with the best plans from top-rated carriers.
+        - generic [ref=f7e160]:
+          - generic [ref=f7e161]: "3"
+          - heading "Enjoy peace of mind" [level=3] [ref=f7e162]
+          - paragraph [ref=f7e163]: Lock in your rate and rest easy knowing your family is protected.
+    - generic [ref=f7e165]:
+      - generic [ref=f7e166]:
+        - heading "Ready to protect your family's future?" [level=2] [ref=f7e167]
+        - paragraph [ref=f7e168]: Get your free, no-obligation quote today — it only takes a couple of minutes.
+      - link "Get My Free Quote →" [ref=f7e169] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=f7e171]:
+      - generic [ref=f7e172]:
+        - generic [ref=f7e173]: Questions?
+        - heading "Frequently asked questions" [level=2] [ref=f7e174]
+      - generic [ref=f7e175]:
+        - group [ref=f7e176]:
+          - generic "What is final expense insurance? +" [ref=f7e177] [cursor=pointer]
+        - group [ref=f7e178]:
+          - generic "Do I need a medical exam to qualify? +" [ref=f7e179] [cursor=pointer]
+        - group [ref=f7e180]:
+          - generic "When can I enroll in a Medicare plan? +" [ref=f7e181] [cursor=pointer]
+        - group [ref=f7e182]:
+          - generic "Is my personal information safe? +" [ref=f7e183] [cursor=pointer]
+        - group [ref=f7e184]:
+          - generic "How much does coverage cost? +" [ref=f7e185] [cursor=pointer]
+  - contentinfo [ref=f7e186]:
+    - generic [ref=f7e187]:
+      - generic [ref=f7e188]:
+        - link "TrustedBenefitHub Medicare & Final Expense" [ref=f7e189] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=f7e192]:
+            - generic [ref=f7e193]:
+              - text: Trusted
+              - strong [ref=f7e194]: Benefit
+              - text: Hub
+            - generic [ref=f7e195]: Medicare & Final Expense
+        - paragraph [ref=f7e196]: Helping families across America find affordable Final Expense and Medicare coverage from top-rated, licensed carriers.
+        - list [ref=f7e197]:
+          - listitem [ref=f7e198]:
+            - text: 📞
+            - link "(844) 780-1683" [ref=f7e199] [cursor=pointer]:
+              - /url: tel:+18447801683
+          - listitem [ref=f7e200]:
+            - text: ✉️
+            - link "support@trustedbenefithub.com" [ref=f7e201] [cursor=pointer]:
+              - /url: mailto:support@trustedbenefithub.com
+          - listitem [ref=f7e202]:
+            - text: 📍
+            - generic [ref=f7e203]: 5601 Democracy Drive, Suite 265,Plano, TX 75024
+      - generic [ref=f7e204]:
+        - heading "Coverage" [level=4] [ref=f7e205]
+        - link "Final Expense" [ref=f7e206] [cursor=pointer]:
+          - /url: "#final-expense"
+        - link "Medicare Advantage" [ref=f7e207] [cursor=pointer]:
+          - /url: "#medicare"
+        - link "Medicare Supplement" [ref=f7e208] [cursor=pointer]:
+          - /url: "#medicare"
+        - link "Get a Quote" [ref=f7e209] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f7e210]:
+        - heading "Company" [level=4] [ref=f7e211]
+        - link "How It Works" [ref=f7e212] [cursor=pointer]:
+          - /url: "#how"
+        - link "FAQ" [ref=f7e213] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Contact Us" [ref=f7e214] [cursor=pointer]:
+          - /url: mailto:support@trustedbenefithub.com
+      - generic [ref=f7e215]:
+        - heading "Legal" [level=4] [ref=f7e216]
+        - link "Privacy Policy" [ref=f7e217] [cursor=pointer]:
+          - /url: privacy-policy
+        - link "Terms & Conditions" [ref=f7e218] [cursor=pointer]:
+          - /url: terms-and-conditions
+    - generic [ref=f7e219]:
+      - paragraph [ref=f7e220]: We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE to get information on all of your options. This is a solicitation for insurance. Not affiliated with or endorsed by any government agency.
+      - paragraph [ref=f7e221]: © 2026 TrustedBenefitHub.com — All rights reserved.
+  - link "Call now" [ref=f7e222] [cursor=pointer]:
+    - /url: tel:+18447801683
+    - text: 📞 Call for a Free Quote
