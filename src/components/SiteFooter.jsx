@@ -18,8 +18,8 @@ function SiteFooter() {
         <div className="footer__col">
           <h4>Coverage</h4>
           <a href="#final-expense">Final Expense</a>
-          <a href="#medicare">Medicare Advantage</a>
-          <a href="#medicare">Medicare Supplement</a>
+          {/* <a href="#medicare">Medicare Advantage</a>
+          <a href="#medicare">Medicare Supplement</a> */}
           <a href="#contact">Get a Quote</a>
         </div>
 

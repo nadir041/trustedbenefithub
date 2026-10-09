@@ -13,7 +13,7 @@ function PageLoader() {
             <path d="M9.2 12.2l1.9 1.9 4-4.2" stroke="#0b3d6b" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
-        <p className="loader__text">TrustedBenefitHub</p>
+        <p className="loader__text">Finalexpenseplanhub</p>
         <span className="loader__sub">Securing your peace of mind…</span>
       </div>
     </div>
