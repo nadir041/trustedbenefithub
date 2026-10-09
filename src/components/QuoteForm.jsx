@@ -1,7 +1,10 @@
 import '../styles/buttons.css'
 import './QuoteForm.css'
+import { useState } from 'react'
 
 function QuoteForm() {
+  const [consentExpanded, setConsentExpanded] = useState(false)
+
   return (
     <form className="quote-form" id="contact" name="contact" noValidate>
       <div className="quote-form__head">
@@ -50,15 +53,17 @@ function QuoteForm() {
           <input type="checkbox" id="consent" name="consent" required />
           <span className="consent__text">
             I agree to the{' '}
-            <a href="terms-and-conditions" target="_blank" rel="noopener">Terms and Conditions</a>,
+            <a href="/terms-and-conditions" target="_blank" rel="noopener">Terms and Conditions</a>,
             CCPA and{' '}
-            <a href="privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>. By
+            <a href="/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>. By
             checking this box and submitting this form, I hereby give my expressed written
             consent and electronic signature. Also by checking this box, I agree to the Terms
             and Conditions, Privacy Policy and authorize insurance companies, their agents and
             marketing partners to contact me about Final Expense insurance and other
             non-insurance offers by telephone calls and text messages to the number I provided
-            above. I agree to receive telemarketing calls and pre-recorded messages via an
+            above.
+            <span id="consentDisclosureMore" hidden={!consentExpanded}>
+              {' '}I agree to receive telemarketing calls and pre-recorded messages via an
             automated dialing system, even if my telephone number is a mobile number that is
             currently listed on any state, federal or corporate Do Not Call list. I understand
             that my consent is not a condition of purchase of any goods or services and that I
@@ -72,6 +77,20 @@ function QuoteForm() {
             automated technology at the phone number and email address you provided, even if it
             is a wireless number, regardless of whether that you are over 18 years of age and
             your consent is not required as a condition of purchase.
+            </span>{' '}
+            <button
+              type="button"
+              className="consent__toggle"
+              aria-expanded={consentExpanded}
+              aria-controls="consentDisclosureMore"
+              onClick={(event) => {
+                event.preventDefault()
+                event.stopPropagation()
+                setConsentExpanded((expanded) => !expanded)
+              }}
+            >
+              Read {consentExpanded ? 'less' : 'more'}
+            </button>
           </span>
         </label>
         <small className="err" data-for="consent"></small>

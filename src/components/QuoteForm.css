@@ -1,6 +1,5 @@
 #contact { scroll-margin-top: 90px; }
-.quote-form { position: relative; background: #fff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow-lg); border: 1px solid rgba(255,255,255,0.6); }
-.quote-form::before { content: ''; position: absolute; inset: -2px; border-radius: 24px; z-index: -1; background: linear-gradient(135deg, var(--teal), var(--navy)); opacity: 0.18; filter: blur(8px); }
+.quote-form { position: relative; background: #fff; border-radius: 22px; padding: 30px; border: 1px solid rgba(255,255,255,0.6); }
 .quote-form__head { text-align: center; margin-bottom: 20px; }
 .quote-form__head h2 { font-size: 1.55rem; color: var(--navy); }
 .quote-form__head p { font-size: 0.9rem; color: var(--slate); margin-top: 4px; }
@@ -23,6 +22,8 @@
 .consent input[type=checkbox]:focus-visible { outline: none; box-shadow: 0 0 0 4px rgba(46,199,166,0.25); }
 .consent__text { font-size: 0.72rem; color: var(--slate); line-height: 1.5; }
 .consent__text a { color: var(--teal-dark); font-weight: 600; text-decoration: underline; }
+.consent__toggle { display: inline; margin: 0; padding: 0; border: 0; background: none; color: var(--teal-dark); font: inherit; font-weight: 600; text-decoration: underline; cursor: pointer; }
+.consent__toggle:focus-visible { outline: 2px solid var(--teal-dark); outline-offset: 2px; }
 .quote-form__secure { text-align: center; font-size: 0.78rem; color: var(--slate); margin-top: 14px; }
 .form-success[hidden] { display: none !important; }
 .form-success { position: absolute; inset: 0; background: #fff; border-radius: 22px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 30px; animation: fadeScale 0.5s var(--ease); }
