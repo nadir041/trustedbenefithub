@@ -20,8 +20,8 @@ function FaqSection() {
             <p>Many of our final expense plans require no medical exam. Some guaranteed-acceptance plans ask no health questions at all, making it easy to get covered even with pre-existing conditions.</p>
           </details>
           <details>
-            <summary>When can I enroll in a Medicare plan?</summary>
-            <p>You can enroll during your Initial Enrollment Period (around your 65th birthday), the Annual Enrollment Period (Oct 15 – Dec 7), or a Special Enrollment Period if you qualify. Our specialists can confirm your eligibility.</p>
+            <summary>When should I get final expense insurance?</summary>
+            <p>You can explore final expense insurance at different stages of life, depending on your age, health, and coverage needs. Our specialists can help you understand available options, compare plans, and find coverage that fits your budget. Planning ahead can help provide peace of mind for you and your loved ones.</p>
           </details>
           <details>
             <summary>Is my personal information safe?</summary>

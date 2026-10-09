@@ -13,7 +13,7 @@ function HowItWorksSection() {
           <div className="step reveal">
             <div className="step__num">1</div>
             <h3>Share a few details</h3>
-            <p>Fill out the quick form — it takes less than 2 minutes and there's no obligation.</p>
+            <p>Fill out the quick form, it takes less than 2 minutes and there's no obligation.</p>
           </div>
           <div className="step reveal">
             <div className="step__num">2</div>

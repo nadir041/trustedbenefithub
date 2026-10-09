@@ -27,14 +27,14 @@ function MedicareSection() {
         <div className="medicare__copy reveal">
           <span className="eyebrow">Medicare Plans</span>
           <h2>Get every benefit you're entitled to</h2>
-          <p>Turning 65 or already enrolled? We help you compare Medicare Advantage, Supplement (Medigap), and Part D plans so you never overpay or miss out on benefits.</p>
+          <p>Planning ahead for final expenses? We help you explore affordable final expense insurance options designed to help protect your loved ones from the financial burden of funeral and end-of-life costs.</p>
           <ul className="checklist">
-            <li>Dental, vision &amp; hearing coverage options</li>
-            <li>Prescription drug (Part D) savings</li>
-            <li>$0 premium Advantage plans in many areas*</li>
-            <li>Free plan reviews during enrollment periods</li>
+            <li>Affordable final expense coverage options</li>
+            <li>Help ease the burden of funeral expenses</li>
+            <li>Coverage options to fit your needs and budget</li>
+            <li>Simple guidance to help you compare available plans</li>
           </ul>
-          <a href="#contact" className="btn btn--primary">Compare Medicare Plans →</a>
+          <a href="#contact" className="btn btn--primary">Compare Final Expense Plans →</a>
           <p className="fineprint">*Availability varies by county and eligibility. We do not offer every plan available in your area.</p>
         </div>
       </div>

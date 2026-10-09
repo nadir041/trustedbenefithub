@@ -15,13 +15,12 @@ function HeroSection() {
         <div className="hero__copy reveal">
           <span className="badge">⭐ Rated 4.9/5 by 12,000+ families</span>
           <h1 className="hero__title">
-            Final Expense &amp; Medicare Coverage,
-            <span className="grad-text">Made Simple &amp; Affordable</span>
+            Affordable Final Expense Plans,
+            <span className="grad-text">for Peace of Mind</span>
           </h1>
           <p className="hero__lead">
-            Protect the people you love from the burden of final costs and get the
-            Medicare benefits you deserve. Compare top-rated plans in minutes —
-            <strong>no medical exam required</strong> on many options.
+            Compare available coverage options in just a few minutes, find a plan that fits your needs and budget, and discover options that may not reProtect the people you love from the financial burden of funeral costs and final expenses. Explore affordable final expense insurance plans designed to help provide peace of mind for you and your family.  
+            <strong> Quire a medical exam. </strong> Planning ahead today can help make tomorrow easier for the people who matter most.
           </p>
 
           <div className="hero__trust">

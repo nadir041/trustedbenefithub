@@ -38,8 +38,8 @@ function SiteFooter() {
       </div>
 
       <div className="footer__disclaimer container">
-        <p>We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE to get information on all of your options. This is a solicitation for insurance. Not affiliated with or endorsed by any government agency.</p>
-        <p className="footer__copy">© <span id="year">2026</span> TrustedBenefitHub.com — All rights reserved.</p>
+        {/* <p>We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE to get information on all of your options. This is a solicitation for insurance. Not affiliated with or endorsed by any government agency.</p> */}
+        <p className="footer__copy">© <span id="year">2026</span> Finalexpenseplanhub.com  All rights reserved.</p>
       </div>
     </footer>
   )

@@ -8,7 +8,7 @@ function FinalExpenseSection() {
         <div className="section__head reveal">
           <span className="eyebrow">Final Expense Insurance</span>
           <h2>Peace of mind that fits any budget</h2>
-          <p>Final expense life insurance is designed to cover funeral costs, medical bills, and other end-of-life expenses — so your loved ones aren't left with the bill.</p>
+          <p>Final expense life insurance is designed to cover funeral costs, medical bills, and other end-of-life expenses, so your loved ones aren't left with the bill.</p>
         </div>
 
         <div className="cards">

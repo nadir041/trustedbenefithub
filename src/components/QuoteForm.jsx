@@ -6,7 +6,7 @@ function QuoteForm() {
     <form className="quote-form" id="contact" name="contact" noValidate>
       <div className="quote-form__head">
         <h2 id="formHeading">Get Your Free Quote</h2>
-        <p>100% free &amp; confidential — takes under 2 minutes.</p>
+        <p>100% free &amp; confidential, takes under 2 minutes.</p>
       </div>
 
       <div className="field-row">
@@ -49,12 +49,29 @@ function QuoteForm() {
         <label className="consent">
           <input type="checkbox" id="consent" name="consent" required />
           <span className="consent__text">
-            By checking this box, I agree to be contacted by TrustedBenefitHub and its
-            partners at the number provided (including via autodialer, pre-recorded messages
-            &amp; SMS), even if it is on a Do-Not-Call list. Consent is not a condition of
-            purchase. I agree to the
-            <a href="privacy-policy" target="_blank" rel="noopener">Privacy Policy</a> &amp;
-            <a href="terms-and-conditions" target="_blank" rel="noopener">Terms</a>.
+            I agree to the{' '}
+            <a href="terms-and-conditions" target="_blank" rel="noopener">Terms and Conditions</a>,
+            CCPA and{' '}
+            <a href="privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>. By
+            checking this box and submitting this form, I hereby give my expressed written
+            consent and electronic signature. Also by checking this box, I agree to the Terms
+            and Conditions, Privacy Policy and authorize insurance companies, their agents and
+            marketing partners to contact me about Final Expense insurance and other
+            non-insurance offers by telephone calls and text messages to the number I provided
+            above. I agree to receive telemarketing calls and pre-recorded messages via an
+            automated dialing system, even if my telephone number is a mobile number that is
+            currently listed on any state, federal or corporate Do Not Call list. I understand
+            that my consent is not a condition of purchase of any goods or services and that I
+            may revoke my consent at any time. I understand that standard message and data
+            rates may apply. By submitting this form, You agree to the Terms and Conditions and
+            Privacy Policy that Discount Insurance Plans, its Partners and /or a licensed sales
+            agent employed with Discount Insurance Plans, may contact you regarding health and
+            life insurance products and services including Final Expense insurance plans by
+            phone or email. You expressly consent to receive phone calls (including autodialed
+            and /or pre-recorded/artificial voice calls via this chat/webform) and email using
+            automated technology at the phone number and email address you provided, even if it
+            is a wireless number, regardless of whether that you are over 18 years of age and
+            your consent is not required as a condition of purchase.
           </span>
         </label>
         <small className="err" data-for="consent"></small>
@@ -65,15 +82,15 @@ function QuoteForm() {
         <span className="btn__spinner" aria-hidden="true"></span>
       </button>
 
-      <p className="quote-form__secure">🔒 Your information is secure &amp; will never be sold to spammers.</p>
+      {/* <p className="quote-form__secure">🔒 Your information is secure &amp; will never be sold to spammers.</p>
 
-      <p className="quote-form__disclaimer" style={{ marginTop: '14px', fontSize: '11px', lineHeight: '1.55', color: '#6b7280' }}>
+       <p className="quote-form__disclaimer" style={{ marginTop: '14px', fontSize: '11px', lineHeight: '1.55', color: '#6b7280' }}>
         We do not offer every plan available in your area. Any information we provide is limited to
         those plans we do offer in your area. Please contact Medicare.gov or 1&#8209;800&#8209;MEDICARE
         to get information on all of your options. TrustedBenefitHub is a private, non-government entity
         and is not affiliated with or endorsed by the U.S. government, the federal Medicare program, the
         Centers for Medicare &amp; Medicaid Services (CMS), or any government agency.
-      </p>
+      </p> */}
 
       <div className="form-success" id="formSuccess" hidden>
         <div className="form-success__icon">✓</div>
