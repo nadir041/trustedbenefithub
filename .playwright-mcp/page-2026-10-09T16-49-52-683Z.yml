@@ -1,0 +1,89 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "TrustedBenefitHub — Home" [ref=f2e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f2e9]:
+          - generic [ref=f2e10]:
+            - text: Trusted
+            - strong [ref=f2e11]: Benefit
+            - text: Hub
+          - generic [ref=f2e12]: Medicare & Final Expense
+      - navigation "Main navigation" [ref=f2e13]:
+        - link "Home" [ref=f2e14] [cursor=pointer]:
+          - /url: /
+        - link "Get Free Quote" [ref=f2e15] [cursor=pointer]:
+          - /url: /#contact
+  - main [ref=f2e16]:
+    - generic [ref=f2e17]:
+      - heading "Privacy Policy" [level=1] [ref=f2e18]
+      - paragraph [ref=f2e19]:
+        - text: "Last updated:"
+        - strong [ref=f2e20]: January 1, 2026
+    - article [ref=f2e21]:
+      - paragraph [ref=f2e22]: TrustedBenefitHub ("we", "us", or "our") operates the website TrustedBenefitHub.com (the "Site"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our Site or submit a request for insurance information. Please read it carefully. By using the Site, you consent to the practices described here.
+      - heading "1. Information We Collect" [level=2] [ref=f2e23]
+      - paragraph [ref=f2e24]: "We collect information you voluntarily provide and information collected automatically:"
+      - list [ref=f2e25]:
+        - listitem [ref=f2e26]: "Information you provide: first name, last name, age, telephone number, state, ZIP code, and any other details you submit through our quote or contact forms."
+        - listitem [ref=f2e27]: "Automatically collected data: IP address, browser type, device information, pages visited, referring URLs, and similar analytics data collected via cookies and comparable technologies."
+      - heading "2. How We Use Your Information" [level=2] [ref=f2e28]
+      - paragraph [ref=f2e29]: "We use the information we collect to:"
+      - list [ref=f2e30]:
+        - listitem [ref=f2e31]: Connect you with licensed insurance agents and providers who can offer Final Expense, Medicare, and related insurance products;
+        - listitem [ref=f2e32]: Respond to your inquiries and provide the quotes or information you requested;
+        - listitem [ref=f2e33]: Contact you by telephone, SMS/text message, email, or automated technology (including autodialers and pre-recorded messages), consistent with the consent you provide;
+        - listitem [ref=f2e34]: Improve our Site, services, and marketing; and
+        - listitem [ref=f2e35]: Comply with legal obligations and prevent fraud or misuse.
+      - heading "3. Consent to Be Contacted (TCPA)" [level=2] [ref=f2e36]
+      - paragraph [ref=f2e37]: By submitting your information and checking the consent box on our form, you expressly consent to be contacted by TrustedBenefitHub and its marketing partners and licensed insurance agents at the telephone number you provided, including through the use of automatic telephone dialing systems, artificial or pre-recorded voice messages, and SMS text messages, even if your number is on a state or federal Do-Not-Call list. This consent is not a condition of purchasing any goods or services. Standard message and data rates may apply. You may revoke consent at any time (see Section 8).
+      - heading "4. How We Share Your Information" [level=2] [ref=f2e38]
+      - paragraph [ref=f2e39]: "We may share your information with:"
+      - list [ref=f2e40]:
+        - listitem [ref=f2e41]: Licensed insurance agents, brokers, carriers, and marketing partners who provide the requested insurance quotes and services;
+        - listitem [ref=f2e42]: Service providers that support our operations (e.g., hosting, analytics, call-center services);
+        - listitem [ref=f2e43]: Legal or governmental authorities when required by law, subpoena, or to protect our rights; and
+        - listitem [ref=f2e44]: A successor entity in the event of a merger, acquisition, or sale of assets.
+      - paragraph [ref=f2e45]: We do not sell your personal information to unrelated third parties for their own independent marketing outside the scope described above.
+      - heading "5. Cookies & Tracking Technologies" [level=2] [ref=f2e46]
+      - paragraph [ref=f2e47]: We use cookies, web beacons, and similar technologies to operate the Site, remember your preferences, measure performance, and support advertising. You can control cookies through your browser settings; disabling them may affect Site functionality.
+      - heading "6. Data Security" [level=2] [ref=f2e48]
+      - paragraph [ref=f2e49]: We implement reasonable administrative, technical, and physical safeguards designed to protect your information. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+      - heading "7. Your Privacy Rights" [level=2] [ref=f2e50]
+      - paragraph [ref=f2e51]: Depending on your state of residence (for example, under the California Consumer Privacy Act), you may have the right to access, correct, delete, or restrict the use of your personal information, and to opt out of certain sharing. To exercise these rights, contact us using the details below.
+      - heading "8. Opt-Out & Do-Not-Call" [level=2] [ref=f2e52]
+      - paragraph [ref=f2e53]:
+        - text: You may opt out of marketing communications at any time by replying "STOP" to any text message, asking a representative to place you on our internal Do-Not-Call list, or emailing us at
+        - link "support@trustedbenefithub.com" [ref=f2e54] [cursor=pointer]:
+          - /url: mailto:support@trustedbenefithub.com
+        - text: . Please allow a reasonable time for your request to take effect.
+      - heading "9. Third-Party Links" [level=2] [ref=f2e55]
+      - paragraph [ref=f2e56]: Our Site may contain links to third-party websites. We are not responsible for the privacy practices or content of those sites. We encourage you to review their privacy policies.
+      - heading "10. Children's Privacy" [level=2] [ref=f2e57]
+      - paragraph [ref=f2e58]: Our Site is not directed to individuals under the age of 18, and we do not knowingly collect personal information from children.
+      - heading "11. Changes to This Policy" [level=2] [ref=f2e59]
+      - paragraph [ref=f2e60]: We may update this Privacy Policy from time to time. Changes are effective when posted on this page with a revised "Last updated" date. Your continued use of the Site constitutes acceptance of the updated policy.
+      - heading "12. Contact Us" [level=2] [ref=f2e61]
+      - paragraph [ref=f2e62]: "If you have questions about this Privacy Policy or our data practices, contact us at:"
+      - generic [ref=f2e63]:
+        - strong [ref=f2e64]: TrustedBenefitHub
+        - generic [ref=f2e65]: 5601 Democracy Drive, Suite 265, Plano, TX 75024
+        - generic [ref=f2e66]:
+          - text: "Email:"
+          - link "support@trustedbenefithub.com" [ref=f2e67] [cursor=pointer]:
+            - /url: mailto:support@trustedbenefithub.com
+        - generic [ref=f2e68]:
+          - text: "Phone:"
+          - link "(844) 780-1683" [ref=f2e69] [cursor=pointer]:
+            - /url: tel:+18447801683
+      - paragraph [ref=f2e70]: This website is not affiliated with or endorsed by any government agency, Medicare, or the Centers for Medicare & Medicaid Services. This is a solicitation for insurance.
+      - link "← Back to Home" [ref=f2e71] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=f2e72]:
+    - paragraph [ref=f2e74]:
+      - text: © 2026 TrustedBenefitHub.com — All rights reserved. |
+      - link "Privacy Policy" [ref=f2e75] [cursor=pointer]:
+        - /url: /privacy-policy
+      - text: "|"
+      - link "Terms & Conditions" [ref=f2e76] [cursor=pointer]:
+        - /url: /terms-and-conditions

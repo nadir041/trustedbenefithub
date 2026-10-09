@@ -1,0 +1,85 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "TrustedBenefitHub — Home" [ref=f3e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f3e9]:
+          - generic [ref=f3e10]:
+            - text: Trusted
+            - strong [ref=f3e11]: Benefit
+            - text: Hub
+          - generic [ref=f3e12]: Medicare & Final Expense
+      - navigation "Main navigation" [ref=f3e13]:
+        - link "Home" [ref=f3e14] [cursor=pointer]:
+          - /url: /
+        - link "Get Free Quote" [ref=f3e15] [cursor=pointer]:
+          - /url: /#contact
+  - main [ref=f3e16]:
+    - generic [ref=f3e17]:
+      - heading "Terms & Conditions" [level=1] [ref=f3e18]
+      - paragraph [ref=f3e19]:
+        - text: "Last updated:"
+        - strong [ref=f3e20]: January 1, 2026
+    - article [ref=f3e21]:
+      - paragraph [ref=f3e22]: Welcome to TrustedBenefitHub.com (the "Site"). These Terms & Conditions ("Terms") govern your access to and use of the Site and any services offered through it. By accessing or using the Site, you agree to be bound by these Terms. If you do not agree, please do not use the Site.
+      - heading "1. About Our Services" [level=2] [ref=f3e23]
+      - paragraph [ref=f3e24]:
+        - text: TrustedBenefitHub is a marketing and lead-generation service that connects consumers with licensed insurance agents, brokers, and carriers offering Final Expense, Medicare, and related insurance products.
+        - strong [ref=f3e25]: We are not an insurance company, and we do not issue policies, make coverage decisions, or provide insurance, legal, tax, or financial advice.
+        - text: Any insurance product is issued solely by the applicable licensed carrier.
+      - heading "2. Eligibility" [level=2] [ref=f3e26]
+      - paragraph [ref=f3e27]: You must be at least 18 years old and a legal resident of the United States to use this Site and submit a request. By using the Site, you represent that the information you provide is accurate, current, and complete.
+      - heading "3. No Guarantee of Coverage or Rates" [level=2] [ref=f3e28]
+      - paragraph [ref=f3e29]: Quotes, rates, benefits, and plan availability shown or referenced on the Site are illustrative and are not guarantees of coverage or pricing. Final eligibility, premiums, and terms are determined solely by the insurance carrier based on underwriting and applicable law. Plan availability varies by location and eligibility. We do not offer every plan available in your area.
+      - heading "4. Consent to Contact" [level=2] [ref=f3e30]
+      - paragraph [ref=f3e31]:
+        - text: By submitting your information through our forms, you agree to be contacted as described in our
+        - link "Privacy Policy" [ref=f3e32] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: ", including by telephone, SMS/text, email, and automated or pre-recorded means, even if your number is on a Do-Not-Call registry. Consent is not a condition of purchase."
+      - heading "5. Acceptable Use" [level=2] [ref=f3e33]
+      - paragraph [ref=f3e34]: "You agree not to:"
+      - list [ref=f3e35]:
+        - listitem [ref=f3e36]: Submit false, misleading, or another person's information without authorization;
+        - listitem [ref=f3e37]: Use the Site for any unlawful, fraudulent, or harmful purpose;
+        - listitem [ref=f3e38]: Attempt to gain unauthorized access to the Site, its systems, or networks;
+        - listitem [ref=f3e39]: Introduce viruses, malware, or other harmful code; or
+        - listitem [ref=f3e40]: Copy, scrape, reproduce, or exploit any part of the Site without our written permission.
+      - heading "6. Intellectual Property" [level=2] [ref=f3e41]
+      - paragraph [ref=f3e42]: All content on the Site — including text, graphics, logos, images, and software — is owned by or licensed to TrustedBenefitHub and is protected by intellectual property laws. You may not use our trademarks or content without prior written consent.
+      - heading "7. Third-Party Links & Services" [level=2] [ref=f3e43]
+      - paragraph [ref=f3e44]: The Site may contain links to third-party websites or reference third-party providers. We do not control and are not responsible for the content, products, services, or practices of any third party. Your dealings with such third parties are solely between you and them.
+      - heading "8. Disclaimer of Warranties" [level=2] [ref=f3e45]
+      - paragraph [ref=f3e46]: The Site and its content are provided "as is" and "as available" without warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement. We do not warrant that the Site will be uninterrupted, secure, or error-free.
+      - heading "9. Limitation of Liability" [level=2] [ref=f3e47]
+      - paragraph [ref=f3e48]: To the fullest extent permitted by law, TrustedBenefitHub and its affiliates, officers, employees, and partners shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or data, arising out of or related to your use of the Site or any insurance product obtained through it, even if advised of the possibility of such damages.
+      - heading "10. Indemnification" [level=2] [ref=f3e49]
+      - paragraph [ref=f3e50]: You agree to indemnify and hold harmless TrustedBenefitHub and its affiliates from any claims, damages, liabilities, and expenses (including reasonable attorneys' fees) arising from your use of the Site or your violation of these Terms.
+      - heading "11. Governing Law" [level=2] [ref=f3e51]
+      - paragraph [ref=f3e52]: These Terms are governed by the laws of the United States and the state in which TrustedBenefitHub is organized, without regard to conflict-of-law principles. Any dispute shall be resolved in the courts located within that jurisdiction.
+      - heading "12. Changes to These Terms" [level=2] [ref=f3e53]
+      - paragraph [ref=f3e54]: We may modify these Terms at any time. Changes are effective when posted with a revised "Last updated" date. Your continued use of the Site after changes are posted constitutes your acceptance of the revised Terms.
+      - heading "13. Contact Us" [level=2] [ref=f3e55]
+      - paragraph [ref=f3e56]: "For questions about these Terms, contact us at:"
+      - generic [ref=f3e57]:
+        - strong [ref=f3e58]: TrustedBenefitHub
+        - generic [ref=f3e59]: 5601 Democracy Drive, Suite 265, Plano, TX 75024
+        - generic [ref=f3e60]:
+          - text: "Email:"
+          - link "support@trustedbenefithub.com" [ref=f3e61] [cursor=pointer]:
+            - /url: mailto:support@trustedbenefithub.com
+        - generic [ref=f3e62]:
+          - text: "Phone:"
+          - link "(844) 780-1683" [ref=f3e63] [cursor=pointer]:
+            - /url: tel:+18447801683
+      - paragraph [ref=f3e64]: This website is not affiliated with or endorsed by any government agency, Medicare, or the Centers for Medicare & Medicaid Services. This is a solicitation for insurance.
+      - link "← Back to Home" [ref=f3e65] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=f3e66]:
+    - paragraph [ref=f3e68]:
+      - text: © 2026 TrustedBenefitHub.com — All rights reserved. |
+      - link "Privacy Policy" [ref=f3e69] [cursor=pointer]:
+        - /url: /privacy-policy
+      - text: "|"
+      - link "Terms & Conditions" [ref=f3e70] [cursor=pointer]:
+        - /url: /terms-and-conditions
