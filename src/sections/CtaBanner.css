@@ -1,0 +1,8 @@
+.cta-banner { background: linear-gradient(120deg, var(--navy), var(--navy-2) 60%, #072a4d); color: #fff; padding: 56px 0; }
+.cta-banner__row { display: flex; align-items: center; justify-content: space-between; gap: 30px; flex-wrap: wrap; }
+.cta-banner h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.cta-banner p { opacity: 0.85; margin-top: 6px; }
+
+@media (max-width: 640px) {
+  .cta-banner__row { flex-direction: column; text-align: center; }
+}

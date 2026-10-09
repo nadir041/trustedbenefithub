@@ -1,0 +1,26 @@
+.footer { background: #0a2a4b; color: #c3d3e2; padding: 60px 0 24px; }
+.footer__grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.brand--footer .brand__mark svg, .brand--footer .brand__mark img.brand__logo { filter: drop-shadow(0 3px 6px rgba(0,0,0,0.35)); }
+.brand--footer .brand__tag { color: rgba(255,255,255,0.65); }
+.brand--footer .brand__name { color: #fff; }
+.footer__brand p { margin: 16px 0; font-size: 0.92rem; opacity: 0.75; max-width: 320px; }
+.footer__phone { font-weight: 700; color: #fff; font-size: 1.05rem; }
+.footer__phone:hover { color: var(--teal); }
+.footer__contact { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 10px; }
+.footer__contact li { display: flex; gap: 9px; font-size: 0.92rem; opacity: 0.85; line-height: 1.5; }
+.footer__contact a { color: #fff; transition: color 0.2s; }
+.footer__contact a:hover { color: var(--teal); }
+.footer__col h4 { color: #fff; font-size: 1rem; margin-bottom: 16px; }
+.footer__col a { display: block; padding: 6px 0; font-size: 0.92rem; opacity: 0.75; transition: opacity 0.2s, color 0.2s; }
+.footer__col a:hover { opacity: 1; color: var(--teal); }
+.footer__disclaimer { padding-top: 24px; }
+.footer__disclaimer p { font-size: 0.76rem; opacity: 0.55; line-height: 1.6; margin-bottom: 12px; }
+.footer__copy { font-weight: 600; opacity: 0.7 !important; }
+
+@media (max-width: 640px) {
+  .footer__grid { grid-template-columns: 1fr 1fr; gap: 28px; }
+}
+
+@media (max-width: 420px) {
+  .footer__grid { grid-template-columns: 1fr; }
+}

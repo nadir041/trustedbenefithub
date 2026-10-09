@@ -1,0 +1,8 @@
+.brand { display: flex; align-items: center; gap: 11px; }
+.brand__mark { display: grid; place-items: center; flex-shrink: 0; }
+.brand__mark svg { width: 38px; height: 42px; display: block; filter: drop-shadow(0 3px 6px rgba(11,61,107,0.18)); }
+.brand__mark img.brand__logo { width: auto; height: 44px; display: block; filter: drop-shadow(0 3px 6px rgba(11,61,107,0.18)); }
+.brand__lockup { display: flex; flex-direction: column; line-height: 1.05; }
+.brand__name { font-size: 1.24rem; font-weight: 800; color: var(--navy); letter-spacing: -0.01em; }
+.brand__name strong { color: var(--teal-dark); font-weight: 800; }
+.brand__tag { font-family: 'Plus Jakarta Sans'; font-weight: 600; font-size: 0.54rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--slate); margin-top: 3px; }

@@ -1,0 +1,13 @@
+.contact-page { padding: 48px 0 80px; min-height: calc(100vh - 180px); }
+.contact-page__inner { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+.contact-page__intro { max-width: 520px; }
+.contact-page__title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: var(--ink); margin: 18px 0 16px; }
+.contact-page__intro p { color: var(--slate); font-size: 1.08rem; }
+.contact-page__intro p strong { color: var(--ink); }
+.review { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 26px; box-shadow: var(--shadow-sm); grid-column: span 1; transition: transform 0.3s; }
+.cards .review { grid-column: auto; }
+.review:hover { transform: translateY(-6px); }
+.review__stars { color: var(--gold); font-size: 1.1rem; letter-spacing: 2px; margin-bottom: 12px; }
+.review p { color: var(--ink); font-style: italic; margin-bottom: 16px; }
+.review footer { font-weight: 700; color: var(--navy); font-size: 0.92rem; }
+.review footer span { color: var(--slate); font-weight: 500; }

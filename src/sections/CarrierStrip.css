@@ -1,0 +1,5 @@
+.logos { background: #fff; border-bottom: 1px solid var(--line); padding: 22px 0; }
+.logos__row { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; justify-content: center; color: var(--slate); font-size: 0.86rem; }
+.logos__marquee { display: flex; gap: 34px; flex-wrap: wrap; justify-content: center; }
+.logos__marquee em { font-style: normal; font-family: 'Plus Jakarta Sans'; font-weight: 700; color: #9aa8b6; font-size: 1.02rem; transition: color 0.2s; }
+.logos__marquee em:hover { color: var(--navy); }

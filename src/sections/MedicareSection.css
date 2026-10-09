@@ -1,0 +1,20 @@
+.medicare__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+.medicare__media { position: relative; min-height: 360px; }
+.medicare__ill { max-width: 340px; margin: 0 auto; }
+.stat-card { position: absolute; background: #fff; border-radius: 14px; padding: 16px 20px; box-shadow: var(--shadow-md); z-index: 2; }
+.stat-card__big { display: block; font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 1.8rem; color: var(--teal-dark); line-height: 1; }
+.stat-card__label { font-size: 0.8rem; color: var(--slate); }
+.stat-card--float { top: 14px; left: -6px; animation: bob 5s ease-in-out infinite; }
+.stat-card--float2 { bottom: 20px; right: -6px; animation: bob 5s ease-in-out infinite 1.5s; }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+.medicare__copy h2 { font-size: clamp(1.8rem, 3.4vw, 2.5rem); color: var(--ink); margin-bottom: 14px; }
+.medicare__copy > p { color: var(--slate); font-size: 1.05rem; margin-bottom: 22px; }
+.checklist { list-style: none; display: grid; gap: 12px; margin-bottom: 28px; }
+.checklist li { position: relative; padding-left: 34px; color: var(--ink); font-size: 1rem; }
+.checklist li::before { content: '✓'; position: absolute; left: 0; top: 0; width: 22px; height: 22px; display: grid; place-items: center; background: var(--teal); color: #fff; border-radius: 50%; font-size: 0.75rem; font-weight: 800; }
+.fineprint { font-size: 0.78rem; color: #9aa8b6; margin-top: 16px; }
+
+@media (max-width: 960px) {
+  .medicare__grid { grid-template-columns: 1fr; gap: 40px; }
+  .medicare__media { min-height: 300px; order: 2; }
+}

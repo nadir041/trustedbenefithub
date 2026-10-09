@@ -1,0 +1,20 @@
+.legal-header { flex: 0 0 auto; }
+.legal-nav { display: flex; align-items: center; gap: 28px; }
+
+@media (max-width: 640px) {
+  .legal-header .header__row { padding-left: 14px; padding-right: 14px; gap: 10px; }
+  .legal-header .brand { gap: 7px; min-width: 0; }
+  .legal-header .brand__mark img.brand__logo { height: 34px; }
+  .legal-header .brand__name { font-size: 1rem; }
+  .legal-header .brand__tag { font-size: 0.43rem; letter-spacing: 0.14em; }
+  .legal-nav { flex: 0 0 auto; }
+  .legal-nav .nav__cta { margin: 0; padding: 8px 10px; font-size: 0.76rem; line-height: 1.2; white-space: nowrap; }
+}
+
+@media (max-width: 360px) {
+  .legal-header .header__row { padding-left: 12px; padding-right: 12px; }
+  .legal-header .brand__mark img.brand__logo { height: 30px; }
+  .legal-header .brand__name { font-size: 0.92rem; }
+  .legal-header .brand__tag { font-size: 0.39rem; letter-spacing: 0.12em; }
+  .legal-nav .nav__cta { padding: 8px; font-size: 0.7rem; }
+}

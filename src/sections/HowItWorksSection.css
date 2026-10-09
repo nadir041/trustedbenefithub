@@ -1,0 +1,10 @@
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; counter-reset: s; }
+.step { position: relative; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 34px 26px 28px; box-shadow: var(--shadow-sm); transition: transform 0.3s; }
+.step:hover { transform: translateY(-6px); }
+.step__num { width: 52px; height: 52px; display: grid; place-items: center; font-family: 'Plus Jakarta Sans'; font-weight: 800; font-size: 1.3rem; color: #fff; background: linear-gradient(135deg, var(--navy), var(--navy-2)); border-radius: 14px; margin-bottom: 18px; box-shadow: 0 8px 18px rgba(11,61,107,0.3); }
+.step h3 { font-size: 1.2rem; color: var(--navy); margin-bottom: 8px; }
+.step p { color: var(--slate); }
+
+@media (max-width: 960px) {
+  .steps { grid-template-columns: 1fr; gap: 18px; }
+}

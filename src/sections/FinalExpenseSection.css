@@ -1,0 +1,14 @@
+.cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 24px; box-shadow: var(--shadow-sm); transition: transform 0.3s var(--ease), box-shadow 0.3s; }
+.card:hover { transform: translateY(-8px); box-shadow: var(--shadow-md); }
+.card__icon { width: 56px; height: 56px; display: grid; place-items: center; font-size: 1.6rem; background: linear-gradient(135deg, #eaf7f3, #e2f0fb); border-radius: 14px; margin-bottom: 16px; }
+.card h3 { font-size: 1.15rem; color: var(--navy); margin-bottom: 8px; }
+.card p { color: var(--slate); font-size: 0.95rem; }
+
+@media (max-width: 960px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .cards { grid-template-columns: 1fr; }
+}

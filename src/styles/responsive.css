@@ -1,0 +1,13 @@
+@media (max-width: 960px) {
+  .contact-page__inner { grid-template-columns: 1fr; gap: 30px; max-width: 560px; margin: 0 auto; }
+  .contact-page__intro { text-align: center; max-width: none; }
+}
+
+@media (max-width: 960px) {
+  #reviews .cards { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  body { padding-bottom: 54px; }
+}
+

@@ -1,0 +1,10 @@
+.faq { max-width: 780px; margin: 0 auto; }
+.accordion details { background: #fff; border: 1px solid var(--line); border-radius: 12px; margin-bottom: 14px; overflow: hidden; transition: box-shadow 0.2s; }
+.accordion details[open] { box-shadow: var(--shadow-sm); }
+.accordion summary { list-style: none; cursor: pointer; padding: 18px 22px; font-family: 'Plus Jakarta Sans'; font-weight: 700; color: var(--navy); display: flex; justify-content: space-between; align-items: center; gap: 14px; }
+.accordion summary::-webkit-details-marker { display: none; }
+.accordion summary::after { content: '+'; font-size: 1.5rem; color: var(--teal); transition: transform 0.25s; font-weight: 400; }
+.accordion details[open] summary::after { transform: rotate(45deg); }
+.accordion details p { padding: 0 22px 20px; color: var(--slate); animation: fadeIn 0.3s ease; }
+.accordion details a { color: var(--teal-dark); font-weight: 600; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
