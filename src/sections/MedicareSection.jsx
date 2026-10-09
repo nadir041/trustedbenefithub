@@ -25,7 +25,7 @@ function MedicareSection() {
         </div>
 
         <div className="medicare__copy reveal">
-          <span className="eyebrow">Medicare Plans</span>
+          <span className="eyebrow">Final Expense Plans</span>
           <h2>Get every benefit you're entitled to</h2>
           <p>Planning ahead for final expenses? We help you explore affordable final expense insurance options designed to help protect your loved ones from the financial burden of funeral and end-of-life costs.</p>
           <ul className="checklist">
