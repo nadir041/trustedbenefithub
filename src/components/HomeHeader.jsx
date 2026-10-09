@@ -15,7 +15,7 @@ function HomeHeader() {
 
       <header className="header" id="header">
         <div className="container header__row">
-          <Brand href="#top" ariaLabel="TrustedBenefitHub — Medicare & Final Expense" />
+          <Brand href="#top" ariaLabel="Final Expense PlanHub — Medicare & Final Expense" variant="header" />
 
           <nav className="nav" id="nav">
             <a href="#final-expense">Final Expense</a>

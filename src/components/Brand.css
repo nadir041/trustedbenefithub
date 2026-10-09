@@ -1,8 +1,37 @@
-.brand { display: flex; align-items: center; gap: 11px; }
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.brand--header {
+  min-width: 0;
+}
+
+.brand--header .brand__logo {
+  display: block;
+  width: auto;
+  height: 92px;
+  max-width: min(58vw, 720px);
+  object-fit: contain;
+  filter: drop-shadow(0 3px 8px rgba(9, 54, 73, 0.18));
+}
+
+.brand--footer {
+  display: inline-flex;
+  margin-bottom: 14px;
+}
+
+.brand--footer .brand__footer-logo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 106px;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.15));
+}
+
 .brand__mark { display: grid; place-items: center; flex-shrink: 0; }
 .brand__mark svg { width: 38px; height: 42px; display: block; filter: drop-shadow(0 3px 6px rgba(11,61,107,0.18)); }
-.brand__mark img.brand__logo { width: auto; height: 44px; display: block; filter: drop-shadow(0 3px 6px rgba(11,61,107,0.18)); }
-.brand__lockup { display: flex; flex-direction: column; line-height: 1.05; }
-.brand__name { font-size: 1.24rem; font-weight: 800; color: var(--navy); letter-spacing: -0.01em; }
-.brand__name strong { color: var(--teal-dark); font-weight: 800; }
-.brand__tag { font-family: 'Plus Jakarta Sans'; font-weight: 600; font-size: 0.54rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--slate); margin-top: 3px; }
+.brand__lockup { display: none; }

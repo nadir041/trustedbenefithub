@@ -6,7 +6,7 @@ function SiteFooter() {
     <footer className="footer">
       <div className="container footer__grid">
         <div className="footer__brand">
-          <Brand href="#top" className="brand brand--footer" />
+          <Brand href="#top" className="brand brand--footer" variant="footer" ariaLabel="Final Expense PlanHub home" />
           <p>Helping families across America find affordable Final Expense from top-rated, licensed carriers.</p>
           <ul className="footer__contact">
             <li>📞 <a href="tel:+18447801683">(844) 780-1683</a></li>

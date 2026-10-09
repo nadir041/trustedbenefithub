@@ -1,15 +1,27 @@
 import './Brand.css'
 
-function Brand({ href, className = 'brand', ariaLabel }) {
+function Brand({ href, className = 'brand', ariaLabel, variant = 'header' }) {
+  const isHeader = variant === 'header'
+
   return (
-    <a href={href} className={className} aria-label={ariaLabel}>
-      <span className="brand__mark">
-        <img className="brand__logo" src="/assets/brand-shield.png" width="42" height="42" alt="" aria-hidden="true" />
-      </span>
-      <span className="brand__lockup">
-        <span className="brand__name">Trusted<strong>Benefit</strong>Hub</span>
-        <span className="brand__tag">Medicare &amp; Final Expense</span>
-      </span>
+    <a
+      href={href}
+      className={`${className} ${isHeader ? 'brand--header' : 'brand--footer'}`}
+      aria-label={ariaLabel || 'Final Expense PlanHub'}
+    >
+      {isHeader ? (
+        <img
+          className="brand__logo"
+          src="/assets/Final%20Expense%20PlanHub%20Logo-1.png"
+          alt="Final Expense PlanHub logo"
+        />
+      ) : (
+        <img
+          className="brand__footer-logo"
+          src="/assets/footer%20logo.png"
+          alt="Final Expense PlanHub footer logo"
+        />
+      )}
     </a>
   )
 }

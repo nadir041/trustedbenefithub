@@ -6,7 +6,7 @@ function LegalHeader() {
   return (
     <header className="header legal-header">
       <div className="container header__row">
-        <Brand href="/" ariaLabel="TrustedBenefitHub — Home" />
+        <Brand href="/" ariaLabel="Final Expense PlanHub — Home" variant="header" />
         <nav className="legal-nav" aria-label="Main navigation">
           <a href="/#contact" className="nav__cta">Get Free Quote</a>
         </nav>
