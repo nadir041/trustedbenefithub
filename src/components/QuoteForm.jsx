@@ -44,6 +44,7 @@ function QuoteForm() {
         </div>
       </div>
 
+      <input type="hidden" id="user_ip" name="user_ip" value="" />
       <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
       <input type="hidden" id="xxTrustedFormCertUrl_0" name="xxTrustedFormCertUrl" value="" />
       <input type="hidden" id="xxTrustedFormPingUrl_0" name="xxTrustedFormPingUrl" value="" />
@@ -101,15 +102,7 @@ function QuoteForm() {
         <span className="btn__spinner" aria-hidden="true"></span>
       </button>
 
-      {/* <p className="quote-form__secure">🔒 Your information is secure &amp; will never be sold to spammers.</p>
-
-       <p className="quote-form__disclaimer" style={{ marginTop: '14px', fontSize: '11px', lineHeight: '1.55', color: '#6b7280' }}>
-        We do not offer every plan available in your area. Any information we provide is limited to
-        those plans we do offer in your area. Please contact Medicare.gov or 1&#8209;800&#8209;MEDICARE
-        to get information on all of your options. TrustedBenefitHub is a private, non-government entity
-        and is not affiliated with or endorsed by the U.S. government, the federal Medicare program, the
-        Centers for Medicare &amp; Medicaid Services (CMS), or any government agency.
-      </p> */}
+    
 
       <div className="form-success" id="formSuccess" hidden>
         <div className="form-success__icon">✓</div>

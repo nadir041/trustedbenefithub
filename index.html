@@ -17,6 +17,89 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
+
+
+
+<!-- ip script -->
+ <script type="text/javascript">
+function myCallbackFunction(token) {
+    var field = document.querySelector("#leadid_token"); 
+    if (field) {
+        field.setAttribute('value', token);
+    }
+}
+</script>
+
+<script id="LeadiDscript" type="text/javascript">
+(function() {
+    var s = document.createElement('script');
+    s.id = 'LeadiDscript_campaign';
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//create.lidstatic.com/campaign/01ee7492-3876-b0aa-cb87-d45c20fccc49.js?snippet_version=2&f=reset&callback=myCallbackFunction'; 
+    var LeadiDscript = document.getElementById('LeadiDscript');
+    LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+})();
+</script>
+<noscript><img src='//create.leadid.com/noscript.gif?lac=675C7AD0-766C-086F-2192-FC4BF16CACF6&lck=01ee7492-3876-b0aa-cb87-d45c20fccc49&snippet_version=2' /></noscript>
+
+
+<script>jQuery(document).ready(function($) {
+    function getUserIP(callback) {
+        $.getJSON('https://api.ipify.org?format=json', function(data) {
+            var userIP = data.ip;
+            callback(userIP);
+        });
+    }
+
+    // Set the user's IP address as the value of the hidden input field
+    getUserIP(function(ip) {
+        $('#user_ip').val(ip);
+    });
+});
+</script>
+
+
+<style>
+	.wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number{
+  border: 1px solid black;
+	}
+</style>
+
+
+<!-- TrustedForm -->
+<script type="text/javascript">
+  (function() {
+    var tf = document.createElement('script');
+    tf.type = 'text/javascript';
+    tf.async = true;
+    tf.src = ("https:" == document.location.protocol ? 'https' : 'http') +
+      '://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&l=' +
+      new Date().getTime() + Math.random();
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tf, s);
+  })();
+</script>
+<noscript>
+  <img src='https://api.trustedform.com/ns.gif' />
+</noscript>
+<!-- End TrustedForm -->
+
+
+<!-- Jornaya script -->
+
+<script id="LeadiDscript" type="text/javascript">
+(function() {
+var s = document.createElement('script');
+s.id = 'LeadiDscript_campaign';
+s.type = 'text/javascript';
+s.async = true;
+s.src = '//create.lidstatic.com/campaign/fb880f38-7ef7-57e0-5f91-829923429cd4.js?snippet_version=2';
+var LeadiDscript = document.getElementById('LeadiDscript');
+LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+})();
+</script>
+<noscript><img src='//create.leadid.com/noscript.gif?lac=27A8DA97-868C-B796-63C7-A9D0E270FE46&lck=fb880f38-7ef7-57e0-5f91-829923429cd4&snippet_version=2' /></noscript>
+
 </head>
 
 <body>
