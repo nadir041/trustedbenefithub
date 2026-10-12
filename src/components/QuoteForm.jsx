@@ -1,9 +1,29 @@
 import '../styles/buttons.css'
 import './QuoteForm.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function QuoteForm() {
   const [consentExpanded, setConsentExpanded] = useState(false)
+
+  // chatgpt
+  const [userIP, setUserIP] = useState('');
+
+useEffect(() => {
+  fetch('https://api.ipify.org?format=json')
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('IP request failed');
+      }
+      return response.json();
+    })
+    .then((data) => {
+      setUserIP(data.ip);
+      console.log('User IP fetched:', data.ip);
+    })
+    .catch((error) => {
+      console.error('IP fetching failed:', error);
+    });
+}, []);
 
   return (
     <form className="quote-form" id="contact" name="contact" noValidate>
@@ -44,7 +64,13 @@ function QuoteForm() {
         </div>
       </div>
 
-      <input type="hidden" id="user_ip" name="user_ip" value="" />
+      <input
+  type="hidden"
+  id="user_ip"
+  name="user_ip"
+  value={userIP}
+  readOnly
+/>
       <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
       <input type="hidden" id="xxTrustedFormCertUrl_0" name="xxTrustedFormCertUrl" value="" />
       <input type="hidden" id="xxTrustedFormPingUrl_0" name="xxTrustedFormPingUrl" value="" />
