@@ -2,10 +2,14 @@ import '../styles/buttons.css'
 import './QuoteForm.css'
 import { useState, useEffect } from 'react'
 
+
+const GOOGLE_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbwDWy-nJ0n52NDz9407JawYa306xvnW0ujTQanWkcfsW47qboyO6LXn7GUsGuMYxlafMw/exec";
+
 function QuoteForm() {
   const [consentExpanded, setConsentExpanded] = useState(false)
 
-  // chatgpt
+  
   const [userIP, setUserIP] = useState('');
 
 useEffect(() => {
@@ -25,8 +29,60 @@ useEffect(() => {
     });
 }, []);
 
+
+// google sheet code
+
+
+const [submitting, setSubmitting] = useState(false);
+
+async function handleSubmit(event) {
+  event.preventDefault();
+
+  const form = event.currentTarget;
+
+  // Validate required fields, including consent.
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    return;
+  }
+
+  setSubmitting(true);
+
+  try {
+    const formData = new FormData(form);
+
+    // Google Apps Script receives URL-encoded form data.
+    const body = new URLSearchParams();
+
+    for (const [key, value] of formData.entries()) {
+      body.append(key, value);
+    }
+
+    await fetch(GOOGLE_SCRIPT_URL, {
+      method: "POST",
+      mode: "no-cors",
+      body,
+    });
+
+    // no-cors does not let the browser verify Google's response.
+    // Verify that the row was actually added to the sheet.
+    document.getElementById("formSuccess").hidden = false;
+    form.reset();
+
+  } catch (error) {
+    console.error("Quote submission error:", error);
+    alert("Unable to submit your quote. Please try again.");
+  } finally {
+    setSubmitting(false);
+  }
+}
+
+
+
+
+
   return (
-    <form className="quote-form" id="contact" name="contact" noValidate>
+    <form className="quote-form" id="contact" name="contact" noValidate onSubmit={handleSubmit}>
       <div className="quote-form__head">
         <h2 id="formHeading">Get Your Free Quote</h2>
         <p>100% free &amp; confidential, takes under 2 minutes.</p>
@@ -123,7 +179,7 @@ useEffect(() => {
         <small className="err" data-for="consent"></small>
       </div>
 
-      <button type="submit" id="submitBtn" className="btn btn--full btn--glow">
+      <button type="submit" id="submitBtn" className="btn btn--full btn--glow" disabled={submitting}>
         <span className="btn__label">Get My Free Quote →</span>
         <span className="btn__spinner" aria-hidden="true"></span>
       </button>
