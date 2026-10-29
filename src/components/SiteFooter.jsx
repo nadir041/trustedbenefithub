@@ -21,6 +21,7 @@ function SiteFooter() {
           <h4>Legal</h4>
           <a href="privacy-policy">Privacy Policy</a>
           <a href="terms-and-conditions">Terms &amp; Conditions</a>
+          <a href="/partners">Partners</a>
         </div>
 
         <div className="footer__col footer__col--contact">

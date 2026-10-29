@@ -142,7 +142,7 @@ async function handleSubmit(event) {
             checking this box and submitting this form, I hereby give my expressed written
             consent and electronic signature. Also by checking this box, I agree to the Terms
             and Conditions, Privacy Policy and authorize insurance companies, their agents and
-            marketing partners to contact me about Final Expense insurance and other
+            {' '}<a href="/partners" target="_blank" rel="noopener">marketing partners</a> to contact me about Final Expense insurance and other
             non-insurance offers by telephone calls and text messages to the number I provided
             above.
             <span id="consentDisclosureMore" hidden={!consentExpanded}>

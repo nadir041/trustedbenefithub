@@ -3,8 +3,12 @@ import { useEffect } from "react";
 function usePageBehavior(pageKind) {
   useEffect(() => {
     if (pageKind) {
-      const title =
-        pageKind === "privacy-policy" ? "Privacy Policy" : "Terms & Conditions";
+      const titles = {
+        "privacy-policy": "Privacy Policy",
+        "terms-and-conditions": "Terms & Conditions",
+        partners: "Our Partners",
+      };
+      const title = titles[pageKind];
       document.title = `${title} | TrustedBenefitHub`;
       const description = document.querySelector('meta[name="description"]');
       if (description)

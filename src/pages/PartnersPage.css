@@ -1,0 +1,7 @@
+.legal-document .partners-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 24px; margin: 0 0 28px; padding: 0; list-style: none; }
+.legal-document .partners-list li { margin: 0; padding: 10px 0 10px 18px; position: relative; border-bottom: 1px solid var(--line); }
+.legal-document .partners-list li::before { content: ''; position: absolute; left: 0; top: 50%; width: 7px; height: 7px; border-radius: 50%; background: var(--teal-dark); transform: translateY(-50%); }
+
+@media (max-width: 640px) {
+  .legal-document .partners-list { grid-template-columns: 1fr; }
+}
